@@ -57,9 +57,11 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 4px solid #E92569;
     transition: all 0.2s ease-out;
   }
+
+  
   
   .fa-bars {
     color: #767676;
