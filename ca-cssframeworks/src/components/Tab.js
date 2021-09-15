@@ -3,6 +3,8 @@ import { Navbar, Form, FormControl, Button, Nav, NavDropdown, Carousel, Tabs, Ta
 import image4 from './../Tab images/tab-1.jpg';
 import image5 from './../Tab images/tab-2.jpg';
 import image6 from './../Tab images/tab-3.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 function TabComponent() {
@@ -64,6 +66,7 @@ function TabComponent() {
        
   <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
   <Tab eventKey="first" title="First">
+  
       <div className="tab-content">
           <img src={image4}></img>
           <div className="tab-content-row">
@@ -71,14 +74,19 @@ function TabComponent() {
               venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus. </p>
+              <span>SHARE</span>
+              <FontAwesomeIcon icon={['fab', 'facebook']} />
+              <FontAwesomeIcon icon={['fab', 'twitter']} />
           
               
           </div>
           
       </div>
+   
     
   </Tab>
   <Tab eventKey="seccond" title="Seccond">
+      
   <div className="tab-content">
           <img src={image5}></img>
           <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
@@ -86,9 +94,12 @@ function TabComponent() {
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus.</p>
       </div>
+
+    
    
   </Tab>
   <Tab eventKey="third" title="Third">
+      
   <div className="tab-content">
           <img src={image6}></img>
           <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, 
@@ -96,6 +107,7 @@ function TabComponent() {
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus.</p>
       </div>
+    
     
   </Tab>
 </Tabs>
