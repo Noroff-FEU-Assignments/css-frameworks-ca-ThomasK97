@@ -1,3 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body{
+    background-color: #EFEFEF;
+}
+//nav
+.bg-light {
+    --bs-bg-opacity: none;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    max-width: 1280px;
+}
+
+.navbar-light .navbar-brand{
+    color: #E92569;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+
+    
+}
+
+.navbar-light .navbar-nav .nav-link{
+   color: #0A0A0A;
+   
+}
+
+.active{
+    background-color:#fff;
+}
+.btn{
+    background-color: #E92569;
+}
+.btn-outline-success {
+    color: #EFEFEF;
+    border-color: #E92569;
+}
+
+
+
+//HeroSLider
+
+
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    color: white;
+    opacity: 1;
+    border-radius: 6px;
+    border: 0;
+    margin: 10px;
+}
+.carousel-indicators .active {
+    background-color: #E92569;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next {
+    display: none;
+}
+//Intro
+
+h2{
+    color: #E92569;
+    padding: 20px;
+    width: 50%;
+}
+
+p{
+    padding: 20px;
+    color: #767676;
+}
+
+//tab
+.nav-link{
+    color: #E92569;
+}
+
+.tab-content{
+    color: #EFEFEF;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #EFEFEF;
+    
+}
+
+//image-cards
+
 .cards{
     padding: 4rem;
     background: #efefef;
@@ -8,10 +99,7 @@ h1{
     color:#E92569 ;
 }
 
-p{
-    text-align: center;
-    color: #C7C7C7;
-}
+
 
 
 

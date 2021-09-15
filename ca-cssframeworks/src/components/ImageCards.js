@@ -1,6 +1,5 @@
 import React from 'react';
 import Carditem from './CardItem';
-import './ImageCards.css';
 import image4 from './../Tab images/tab-1.jpg';
 import image5 from './../Tab images/tab-2.jpg';
 import image6 from './../Tab images/tab-3.jpg';

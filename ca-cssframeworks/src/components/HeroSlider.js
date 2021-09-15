@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import image1 from './../Carousel images/carousel-1.jpg';
 import image2 from './../Carousel images/carousel-2.jpg';
 import image3 from './../Carousel images/carousel-3.jpg';
-import './../components/HeroSlider.css';
+import './../components/HeroSlider';
 
 
 

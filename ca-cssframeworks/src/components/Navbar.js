@@ -1,81 +1,41 @@
-import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import { Button } from './Button';
-import './Navbar.css';
+import React from 'react';
+import { Navbar, Form, FormControl, Button, Nav, NavDropdown, Carousel, Tabs, Tab, Container, Row, Col, Accordion } from 'react-bootstrap';
 
 
-function Navbar() {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-  
-    const handleClick = () => setClick(!click);
-    const closeMobMenu = () => setClick(false);
-  
-    const buttonVisible = () => {
-      if (window.innerWidth <= 960) {
-        setButton(false);
-      } else {
-        setButton(true);
-      }
-    };
-  
-    useEffect(() => {
-      buttonVisible();
-    }, []);
-  
-    window.addEventListener('resize', buttonVisible);
-  
+
+function Navigation() {
     return (
-      <>
-        <nav className='navbar'>
-          <div className='navbar-container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobMenu}>
-              The YAY Company
-              
-            </Link>
-            <div className='menu-icon' onClick={handleClick}>
-              <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-            </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-              <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobMenu}>
-                  Home
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link
-                  to='/news'
-                  className='nav-links'
-                  onClick={closeMobMenu}
-                >
-                  News
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link
-                  to='/contact'
-                  className='nav-links'
-                  onClick={closeMobMenu}
-                >
-                  Contact
-                </Link>
-              </li>
-  
-              <li>
-                <Link
-                  to='/search'
-                  className='nav-links-mobile'
-                  onClick={closeMobMenu}
-                >
-                  Search
-                </Link>
-              </li>
-            </ul>
-            {button && <Button buttonStyle='btn--outline'>Search</Button>}
-          </div>
-        </nav>
-      </>
-    );
-  }
-  
-  export default Navbar;
+        <Navbar bg="light" expand="lg">
+  <Navbar.Brand href="/">The YAY Company</Navbar.Brand>
+  <Navbar.Toggle aria-controls="navbarScroll" />
+  <Navbar.Collapse id="navbarScroll">
+    <Nav
+      className="mr-auto my-2 my-lg-0"
+      style={{ maxHeight: '100px' }}
+      navbarScroll
+    >
+      <Nav.Link className="active" href="/">Home</Nav.Link>
+      <Nav.Link href="/news">News</Nav.Link>
+      <Nav.Link href="#">Contact</Nav.Link>
+      
+      
+    </Nav>
+    <Form className="d-flex">
+      <FormControl
+        type="search"
+        placeholder="Search"
+        className="mr-2"
+        aria-label="Search"
+      />
+      <Button variant="outline-success">Go</Button>
+    </Form>
+  </Navbar.Collapse>
+</Navbar>
+    )
+}
+
+export default Navigation;
+
+
+
+
