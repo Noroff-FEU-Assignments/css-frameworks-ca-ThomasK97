@@ -62,6 +62,7 @@ function TabComponent() {
 
 
   <div className="d-none d-md-block">
+      
 
        
   <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">

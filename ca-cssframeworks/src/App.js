@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import News from './components/pages/News';
 import Navigation from './components/Navbar';
 import Tab from './components/Tab';
+import Contact from './components/pages/Contact';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/news' component={News} />
+        <Route path='/contact' component={Contact} />
         
         
       </Switch>

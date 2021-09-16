@@ -13,6 +13,7 @@ import image11 from './../News images/news-8.jpg';
 function ImageCards() {
     return (
         <>
+        
 
 <Card>
     <div className="Header-intro">
@@ -40,10 +41,9 @@ function ImageCards() {
   <Card style={{ width: '8rem' }}>
     <Card.Img variant="top" src={image1} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Nunc porttitor vel</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      Nunc malesuada eget est fringilla dapibus.
       </Card.Text>
     </Card.Body>
     <br></br>
@@ -54,10 +54,9 @@ function ImageCards() {
     <Card.Img variant="top" src={image2} />
 
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Nunc porttitor vel</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.
+      Nunc malesuada eget est fringilla dapibus.
       </Card.Text>
     </Card.Body>
     <br></br>
@@ -67,11 +66,9 @@ function ImageCards() {
   <Card>
     <Card.Img variant="top" src={image3} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Nunc porttitor vel</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      Nunc malesuada eget est fringilla dapibus.
       </Card.Text>
       
     </Card.Body>
@@ -82,10 +79,61 @@ function ImageCards() {
   <Card style={{ width: '8rem' }}>
     <Card.Img variant="top" src={image7} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Nunc porttitor vel</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      Nunc malesuada eget est fringilla dapibus.
+      </Card.Text>
+    </Card.Body>
+    <br></br>
+      <Button variant="primary">More</Button>
+    
+  </Card>
+</CardGroup>
+<CardGroup>
+  <Card style={{ width: '8rem' }}>
+    <Card.Img variant="top" src={image8} />
+    <Card.Body>
+      <Card.Title>Nunc porttitor vel</Card.Title>
+      <Card.Text>
+      Nunc malesuada eget est fringilla dapibus.
+      </Card.Text>
+    </Card.Body>
+    <br></br>
+      <Button variant="primary">More</Button>
+    
+  </Card>
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant="top" src={image9} />
+
+    <Card.Body>
+      <Card.Title>Nunc porttitor vel</Card.Title>
+      <Card.Text>
+      Nunc malesuada eget est fringilla dapibus.
+      </Card.Text>
+    </Card.Body>
+    <br></br>
+      <Button variant="primary">More</Button>
+    
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={image10} />
+    <Card.Body>
+      <Card.Title>Nunc porttitor vel</Card.Title>
+      <Card.Text>
+      Nunc malesuada eget est fringilla dapibus.
+      </Card.Text>
+      
+    </Card.Body>
+    <br></br>
+      <Button variant="primary">More</Button>
+    
+  </Card>
+  <Card style={{ width: '8rem' }}>
+    <Card.Img variant="top" src={image11} />
+    <Card.Body>
+      <Card.Title>Nunc porttitor vel</Card.Title>
+      <Card.Text>
+      Nunc malesuada eget est fringilla dapibus.
       </Card.Text>
     </Card.Body>
     <br></br>

@@ -16,7 +16,7 @@ function Navigation() {
     >
       <Nav.Link className="active" href="/">Home</Nav.Link>
       <Nav.Link href="/news">News</Nav.Link>
-      <Nav.Link href="#">Contact</Nav.Link>
+      <Nav.Link href="/contact">Contact</Nav.Link>
       
       
     </Nav>

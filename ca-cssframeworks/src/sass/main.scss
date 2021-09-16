@@ -157,9 +157,7 @@ span{
 }
 .card-header{
     background-color: #EFEFEF;
-    max-width: 1281px;
-    width: 100%;
-    margin: auto;
+    
 
 }
 
@@ -171,13 +169,29 @@ h1{
     background-color: #EFEFEF;
     max-width: 1281px;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 16px;
     
-
 }
 
 
 
+//contact
+
+.form-check .form-check-input{
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border: 4;
+    background-color: #E92569;
+   
+
+}
+
+.form-check-label{
+    color: #767676;
+    padding-left: 10px;
+}
 
 
 
