@@ -1,5 +1,10 @@
 import React from 'react'
 import { Navbar, Form, FormControl, Button, Nav, NavDropdown, Carousel, Tabs, Tab, Container, Row, Col, Accordion, Card, CardGroup} from 'react-bootstrap';
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
+
 
 function ContactF() {
     return (
@@ -35,10 +40,25 @@ function ContactF() {
 
 </Form>
 </Col>
+<Col md={6}><span><FaEnvelope/>hello@yay.com</span>
+<br></br>
+<br></br>
+
+<span> <FaPhoneAlt/>123 456 7890</span>
+
+<br></br>
+<br></br>
+
+<span><FaMapMarkerAlt/>123 Some Street
+Somewhere
+Some City
+10000</span></Col>
           
          </Row>
         </Container>
-        
+
+
+
         
         
             
