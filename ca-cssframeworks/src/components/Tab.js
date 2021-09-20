@@ -3,7 +3,9 @@ import { Navbar, Form, FormControl, Button, Nav, NavDropdown, Carousel, Tabs, Ta
 import image4 from './../Tab images/tab-1.jpg';
 import image5 from './../Tab images/tab-2.jpg';
 import image6 from './../Tab images/tab-3.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
 
 
 
@@ -75,9 +77,9 @@ function TabComponent() {
               venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus. </p>
-              <span>SHARE</span>
-              <FontAwesomeIcon icon={['fab', 'facebook']} />
-              <FontAwesomeIcon icon={['fab', 'twitter']} />
+              <span>SHARE</span> <FaFacebookF/> <FaTwitter/>
+              
+
           
               
           </div>
@@ -94,6 +96,7 @@ function TabComponent() {
               venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus.</p>
+              <span>SHARE</span> <FaFacebookF/> <FaTwitter/>
       </div>
 
     
@@ -107,6 +110,7 @@ function TabComponent() {
               venenatis pharetra leo laoreet a. Nullam non eleifend justo, a 
               ullamcorper turpis. Cras vehicula pharetra lectus non maximus. 
               Sed condimentum mattis rhoncus.</p>
+              <span>SHARE</span> <FaFacebookF/> <FaTwitter/>
       </div>
     
     

@@ -130,11 +130,15 @@ p{
 }
 
 .tab-content{
-    color: #EFEFEF;
+    
     max-width: 1281px;
     width: 100%;
     margin: auto;
+  
+    
 }
+
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #495057;
     background-color: #EFEFEF;
@@ -143,6 +147,17 @@ p{
 
 span{
     color: #242424;
+}
+
+.accordion-body{
+    background-color: #EFEFEF;
+}
+
+.tab-content-row{
+  
+    
+    
+   
 }
 
 
@@ -155,24 +170,52 @@ span{
     width: 100%;
     margin: auto;
 }
-.card-header{
+
+.btn-toolbar{
     background-color: #EFEFEF;
+    max-width: 1281px;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
     
 
 }
+
+
+
+.btn-primary{
+    background-color: white;
+    width: 100%;
+    color:#E92569 ;
+    border-color: #E92569;
+}
+
 
 h1{
     text-align: center;
     color:#E92569 ;
 }
-.card{
-    background-color: #EFEFEF;
-    max-width: 1281px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 16px;
+.card-img-top{
+    border-radius: 5px;
     
 }
+.card{
+    margin-top: 3rem;
+    border-radius: 10px;
+    
+    
+
+   
+    
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -194,6 +237,22 @@ h1{
 }
 
 
+
+//footer
+
+.main-footer {
+    color: #767676;
+    background-color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+
+  }
 
 
 
