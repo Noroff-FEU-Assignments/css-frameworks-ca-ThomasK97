@@ -9,14 +9,20 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 function ContactF() {
     return (
         <>
-        <div className="Header-intro">
+
+<div className="Header-intro">
         <h2>Submit your details</h2>
         </div>
         <br></br>
         <br></br>
+        
         <Container>
+        
          <Row>
-          <Col md={6}><Form>
+           
+          <Col md={6}>
+          <Form>
+            
   <Form.Group>
     
     <Form.Control type="text" placeholder="Name" />
